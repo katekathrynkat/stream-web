@@ -1,0 +1,43 @@
+---
+title: "Code for stream_web Shiny app"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+# Load packages
+library(tidyverse)
+
+# Load data
+dat <- read_csv('Cooper2015_fig8_data.csv') %>% 
+  mutate(treatment = factor(treatment, levels = c('UNT', 'UNTL', 'BRI', 'BRB')))
+
+```
+
+
+```{r}
+
+# Color scale
+cols <- c('green', 'blue', 'orange', 'red')
+names(cols) <- levels(dat$treatment)
+
+# Algivores
+dat %>% 
+  filter(level=='algivore') %>% 
+  ggplot(aes(x = treatment, y = mean, fill = treatment)) +
+  geom_col() +
+  scale_fill_manual(values = cols) +
+  scale_y_continuous(expand = c(0,0),
+                     limits = c(0,7)) + 
+  theme_classic() +
+  theme(legend.position = 'none', axis.title.x = element_blank()) + 
+  labs(title = 'Algivores',
+       y = 'thousands/m^2')
+ 
+```
+
+

@@ -1,0 +1,57 @@
+treatment,level,unit,mean
+UNT,algivore,thousands/m^2,2.674698795
+UNTL,algivore,thousands/m^2,1.060240964
+BRB,algivore,thousands/m^2,4.939759036
+BRI,algivore,thousands/m^2,6.951807229
+UNT,algivore_big,indv/m^2,269.57638
+UNTL,algivore_big,indv/m^2,134.78819
+BRB,algivore_big,indv/m^2,1335.044929
+BRI,algivore_big,indv/m^2,404.36457
+UNT,canopy,%,95.07133593
+UNTL,canopy,%,85.73281453
+BRB,canopy,%,44.74708171
+BRI,canopy,%,95.07133593
+UNT,chla_hard,mg/m^2,44.784689
+UNTL,chla_hard,mg/m^2,4.401913876
+BRB,chla_hard,mg/m^2,22.00956938
+BRI,chla_hard,mg/m^2,30.43062201
+UNT,chla_soft,mg/m^2,16.01941748
+UNTL,chla_soft,mg/m^2,16.50485437
+BRB,chla_soft,mg/m^2,97.57281553
+BRI,chla_soft,mg/m^2,13.59223301
+UNT,cpom,AFDM (g/m^2),4.086956522
+UNTL,cpom,AFDM (g/m^2),6.347826087
+BRB,cpom,AFDM (g/m^2),2.52173913
+BRI,cpom,AFDM (g/m^2),3.590062112
+UNT,deposit_feeder,thousands/m^2,3.285223368
+UNTL,deposit_feeder,thousands/m^2,3.134020619
+BRB,deposit_feeder,thousands/m^2,3.367697595
+BRI,deposit_feeder,thousands/m^2,1.924398625
+UNT,filter_feeder,indv/m^2,798.1308411
+UNTL,filter_feeder,indv/m^2,842.9906542
+BRB,filter_feeder,indv/m^2,1299.065421
+BRI,filter_feeder,indv/m^2,1205.607477
+UNT,fpom,AFDM (g/m^2),0.7775
+UNTL,fpom,AFDM (g/m^2),0.7275
+BRB,fpom,AFDM (g/m^2),1.3525
+BRI,fpom,AFDM (g/m^2),0.6525
+UNT,macroalgae,% Cladophora cover,46.96278511
+UNTL,macroalgae,% Cladophora cover,14.88595438
+BRB,macroalgae,% Cladophora cover,55.41416567
+BRI,macroalgae,% Cladophora cover,35.24609844
+UNT,micropredator,thousands/m^2,0.915614237
+UNTL,micropredator,thousands/m^2,0.582663605
+BRB,micropredator,thousands/m^2,1.277267509
+BRI,micropredator,thousands/m^2,0.640068886
+UNT,predator,indv/m^2,104.516129
+UNTL,predator,indv/m^2,401.8064516
+BRB,predator,indv/m^2,112.2580645
+BRI,predator,indv/m^2,41.03225806
+UNT,shredder,indv/m^2,829.5302013
+UNTL,shredder,indv/m^2,700.6711409
+BRB,shredder,indv/m^2,99.32885906
+BRI,shredder,indv/m^2,314.0939597
+UNT,temp,deg C,15.0397878
+UNTL,temp,deg C,15.35809019
+BRB,temp,deg C,18.75331565
+BRI,temp,deg C,16.31299735
